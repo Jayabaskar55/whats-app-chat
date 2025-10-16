@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import CryptoJS from "crypto-js";
 import Picker from "emoji-picker-react";
+import { ReactMic } from 'react-mic';
 
 
 export default function MessageInput({ onSend }) {
